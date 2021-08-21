@@ -1,6 +1,30 @@
 body{
-    background-color:greenyellow
+    background-color:silver;
 }
+
+#subtitle-1{
+    text-align: center;
+    font-size: bold;
+    font-weight: 400%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#subtitle-2{
+    text-align: center;
+}
+
+h2{
+    color: green;
+}
+
+/* #subtitle{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:bold;
+    font-weight: 600;
+    word-spacing: 0em;
+} */
 
 .navbar{
     display: flex;
@@ -20,8 +44,8 @@ nav ul{
 
 nav ul li{
     display: inline-block;
-    margin-right: 25px;
-    margin-bottom: 100px;
+    margin-right: 30px;
+    margin-bottom: 50px;
 }
 
 a{
