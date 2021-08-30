@@ -94,30 +94,51 @@ clear: both;
 display: table;
 }
 
-#form{
-    padding-left: 35px;
-    text-shadow:red;
-    color: white;
-}
+    .heading{
+        padding-left: 16%;
+    }
 
-#send{
-    color: blue;
-}
+    #para-1{
+        font-size: large;
+        font-family:Arial, Helvetica, sans-serif;
+        padding-right: 60%;
+        margin-left: 50px;
+    }
+
+    .images{
+        vertical-align: 50px;
+        float: right;
+    }
+
+    .whole-form{
+        display: flex;
+    }
+
+    .field-space{
+    padding-right: 15px;
+    }
 
 .column1{
     float: left;
-    width: 32%;
-    padding: 1px;
-    padding-top: 100px;
-    padding-left: 10px;
+    width: 20%;
+    padding:0%;
+    padding-bottom: 20px 
 }
 
 /* Clearfix (clear floats)*/
-.row::after{
-    content:"";
-    clear: both;
-    display: table;
-    }
+.row1::after{
+content:"";
+clear: both;
+display: table;
+}
+
+.form-input{
+    background-color: black;
+    width: 20%;
+    height: 30%;
+    padding-left: 20px;
+    margin-left: 10px;
+}
 
 
 /* #subtitle{
@@ -128,6 +149,10 @@ display: table;
     font-weight: 600;
     word-spacing: 0em;
 } */
+
+.about-us{
+    background: url("");
+}
 
 a{
     text-decoration: none;
