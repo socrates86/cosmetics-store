@@ -19,7 +19,7 @@ body{
     text-align: left;
     color: black;
     padding-top: 10px;
-    height:90px
+    height:90px;
 }
 
 #img-1{
@@ -51,6 +51,7 @@ nav ul li{
     display: inline-block;
     margin-right: 30px;
     margin-bottom: 50px;
+    text-transform: uppercase;
 }
 
 #subtitle-1{
@@ -84,7 +85,7 @@ nav ul li{
     float: left;
     width: 32%;
     padding: 8px;
-    padding-bottom: 200px; 
+    padding-bottom: 100px; 
 }
 
 /* Clearfix (clear floats)*/
@@ -95,49 +96,133 @@ display: table;
 }
 
     .heading{
-        padding-left: 16%;
+        /* padding-left: 16%; */
+        /* float: right; */
+        text-align: center;
+        margin-top: 1%;
+        color: navy;
+        
     }
 
     #para-1{
         font-size: large;
         font-family:Arial, Helvetica, sans-serif;
-        padding-right: 60%;
-        margin-left: 50px;
-    }
-
-    .images{
-        vertical-align: 50px;
-        float: right;
+        padding: 5%;
+        text-align: center;
+        text-align: justify;
     }
 
     .whole-form{
         display: flex;
+        background-color: black;      
     }
 
     .field-space{
-    padding-right: 15px;
+    padding-right: 20px;
+    margin-left: 5%;
     }
 
-.column1{
-    float: left;
-    width: 20%;
-    padding:0%;
-    padding-bottom: 20px 
+    .input-input{
+        padding: 15px;
+    }
+
+       #a-tag{
+        color: black;
+        background-color: white;
+        text-transform: uppercase;
+        padding: 15px;
+        margin-left: 20px;
+        border-radius: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+        text-align: center;
+    }
+
+    #a-tag:hover{
+        color:rgb(105, 114, 240);
+    }
+
+.woman{
+    width: 25%;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
-/* Clearfix (clear floats)*/
-.row1::after{
-content:"";
-clear: both;
-display: table;
+.man{
+    width: 25%;
+    position: absolute;
+    right: 20px;
+    left: 40px;
+    margin-top: 10%;
+    margin-left: 10%;
 }
 
-.form-input{
-    background-color: black;
-    width: 20%;
-    height: 30%;
-    padding-left: 20px;
-    margin-left: 10px;
+.section{
+    background-color:rgb(117, 120, 122);
+    height: 60vh;
+}
+
+.head-4{
+    text-align: center;
+    /* margin-top: 5%; */
+    padding-top: 8%;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.paragraph{
+    text-align:center;  
+    text-transform:uppercase;
+    color: white;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+#input{
+margin-left: 30%;
+padding: 20px;
+text-align: justify;
+padding-left: 100px;
+padding-right: 60px;
+border: 2px solid white;
+background-color:rgb(165, 139, 139);
+color:white;
+}
+
+#input-2{
+    padding: 20px;
+    background-color:white;
+    color: black;
+    font-size: bold;
+    font-weight: 600;
+    padding-left: 60px;
+    padding-right: 60px;
+    letter-spacing: 3px;
+    border: 2px solid white;
+}
+
+#input-2:hover{
+    color: orange;
+}
+
+.para-0{
+    margin-left: 15%;
+    text-transform:capitalize;
+    color: white;
+    font-size: bold;
+    font-weight: 600;
+}
+
+#footer{
+    background-color:black;
+    height: 10vh;
+    margin-bottom: 0%;
+    padding-top: 10px;
 }
 
 
@@ -165,3 +250,101 @@ a{
     padding-left: 25px;
     padding-right: 25px;
 } */
+
+#h1{
+    color: green;
+    text-transform: uppercase;
+    margin-left: 55%;
+    padding-top: 3%;
+}
+
+#address{
+    margin-left: 55%;
+    text-align: justify;
+    font-size: bold;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-right: 3%;
+    padding-bottom: 1%;
+}
+
+#a-href{
+    margin-left: 55%;
+    text-transform: uppercase;
+    font-size: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    margin-right: 17%;
+}
+
+#para-3{
+margin-left: 55%;
+text-transform: uppercase;
+color: orange;
+}
+
+
+.form-input{
+    color: white;
+    background-color: black;
+    width: 219px;
+    margin-left: 5%;
+    padding-left: 3%;
+    padding-right: 15%;
+    border-radius: 5px;
+    display: inline-block;
+    padding-top: 5%;
+}
+
+#submit{
+    color: blue;
+    padding:15px;
+    margin-left: 1%;
+    padding-right: 30%;
+    text-transform:uppercase;
+    padding-left: 20%;
+    margin-bottom: 20%;
+    font-size: bol--------------------------------d;
+    font-weight: 700;
+}
+
+#submit:hover{
+    color: red;
+}
+
+.column-3{
+    float: left;
+    width: 20%;
+    padding: 2px;
+    padding-bottom: 70px;
+    margin-bottom: 5%; 
+}
+
+.social{
+    display:block;
+    margin-bottom: 1%;
+    margin-left: 30px;    
+}
+
+#facebook:hover{
+    color: orange;
+}
+
+#twitter:hover{
+    color: orange;
+}
+
+#instagram:hover{
+    color: orange;
+}
+
+
+
+/* Clearfix (clear floats)*/
+.row-3::after{
+content:"";
+clear: both;
+display: table;
+}
+
