@@ -1,8 +1,9 @@
 body{
-    background-color:silver;
+    background-color: rgb(201, 204, 206);
+    background: url("https://thumbs.dreamstime.com/b/natural-organic-spa-cosmetic-products-set-green-leaves-top-view-herbal-skincare-beauty-background-banner-mockup-eco-172418876.jpg");
 }
 
-#heading-1:hover{
+#heading-1{
     color: rgba(248, 161, 0, 0.925);
     text-transform: uppercase;
     font-size: bold;
@@ -52,6 +53,10 @@ nav ul li{
     margin-right: 30px;
     margin-bottom: 50px;
     text-transform: uppercase;
+}
+
+nav ul li:hover{
+text-decoration:underline;
 }
 
 #subtitle-1{
@@ -192,7 +197,7 @@ padding-right: 60px;
 border: 2px solid white;
 background-color:rgb(165, 139, 139);
 color:white;
-}
+}   
 
 #input-2{
     padding: 20px;
@@ -234,10 +239,6 @@ color:white;
     font-weight: 600;
     word-spacing: 0em;
 } */
-
-.about-us{
-    background: url("");
-}
 
 a{
     text-decoration: none;
@@ -315,11 +316,18 @@ color: orange;
 
 .column-3{
     float: left;
-    width: 20%;
+    width: 33%;
     padding: 2px;
-    padding-bottom: 70px;
+    /* padding-bottom: 70px; */
     margin-bottom: 5%; 
 }
+
+/* Clearfix (clear floats)*/
+.row-3::after{
+    content:"";
+    clear: both;
+    display: table;
+    } 
 
 .social{
     display:block;
@@ -339,12 +347,82 @@ color: orange;
     color: orange;
 }
 
-
-
-/* Clearfix (clear floats)*/
+/* Clearfix (clear floats) */
 .row-3::after{
 content:"";
 clear: both;
 display: table;
 }
 
+.aboutpage1{
+    background-color: grey;
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEBROdbhWfsxXVqiJPiosySpjyHrlUC4O6g&usqp=CAU");
+    height: 50vh;
+    padding-top: 100px
+}
+
+#about-us{
+    color: white;
+    word-spacing: 7px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+#about-us2{
+    color: white;
+    word-spacing: 7px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+
+}
+
+.story{
+    margin-left: 15%;
+    padding-top: 10%;
+    text-transform: uppercase;
+    font-style: oblique;
+    color: green;
+}
+
+.para-5{
+    /* float: right; */
+    margin-left: 30%;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    color: green;
+    font-size: xx-large;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.para-6{
+    /* float: right; */
+    margin-left: 40%;
+    padding-bottom: 20px;
+    text-align: justify;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.hitory{
+    background:url("https://ak.picdn.net/shutterstock/videos/1066577566/thumb/7.jpg?ip=x480")
+}
+
+#para{
+    background-color: black;
+    height: 8vh;
+    padding-top: 30px;
+    margin-top: 0px;
+    color: white;
+    /* text-align: center; */
+    padding-left: 10%;
+    font-size: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
